@@ -1,5 +1,5 @@
-const name = document.getElementById("name")! as HTMLInputElement;
-const email = document.getElementById("email");
+const username = document.getElementById("name")! as HTMLInputElement;
+const email = document.getElementById("email")! as HTMLInputElement;
 
 function add(n1: number, n2: number) {
     return n1 + n2;
