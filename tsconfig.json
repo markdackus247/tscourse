@@ -2,6 +2,7 @@
     "compileOnSave": false,
     "compilerOptions": {
       "target": "es2017",
+      "strictNullChecks": false,
       "lib": ["dom", "es2017", "esnext.asynciterable"],
       "typeRoots": ["node_modules/@types"],
       "allowSyntheticDefaultImports": true,
