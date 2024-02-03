@@ -1,18 +1,24 @@
-const num1 = document.getElementById("number1")! as HTMLInputElement;
-const num2 = document.getElementById("number2")! as HTMLInputElement;
-const form = document.getElementById('calcForm')! as HTMLFormElement;
-
-
-form.addEventListener('submit', function (event) {
-    event.preventDefault();
-    console.log(add(Number(num1), Number(num2)));    
-});
-
-
-function add(n1: number, n2: number) {
-    return n1 + n2;
+type Person = {
+    name: string;
+    age: number;
+    hobbies: string[];
 }
 
+const person: Person = {
+    name: 'Maximalian',
+    age: 30,
+    hobbies: ['Sports', 'Cooking']
+}
 
+let favoriteActivities: Person;
 
-// console.log(num1, num2, form);
+favoriteActivities = {
+    name: 'Mark',
+    age: 48,
+    hobbies: ["Badmintor", "Hockey"]
+}
+console.log(favoriteActivities);
+
+for (const hobby of person.hobbies) {
+    console.log(`hobby.toUpperCase() ${hobby.toUpperCase()}`);
+}
