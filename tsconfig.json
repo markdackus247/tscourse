@@ -3,6 +3,7 @@
     "compilerOptions": {
       "target": "es2017",
       "lib": ["dom", "es2017"],
+      "strictNullChecks": false,
       "typeRoots": ["node_modules/@types"],
       "allowSyntheticDefaultImports": true,
       "experimentalDecorators": true,
